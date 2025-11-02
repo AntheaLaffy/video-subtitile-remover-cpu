@@ -33,7 +33,7 @@ VSR主要实现了以下功能：
 把源码下载下来
 进入命令行,安装依赖文件，这个requirement是在我的cpu笔记本上构建的
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-cpu.txt
 ```
 之后启动gui.py
 ```bash
