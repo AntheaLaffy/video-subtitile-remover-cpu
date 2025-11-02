@@ -29,13 +29,62 @@ VSR主要实现了以下功能：
 <img src="https://github.com/AntheaLaffy/resourses/raw/main/my-group.jpg" width="300px">
 
 **VSR-WebUI使用说明————如果你想以cpu运行的化**
-
-把源码下载下来
-进入命令行,安装依赖文件，这个requirement是在我的cpu笔记本上构建的
+一、直接到我的release里把exe打包文件下载下来 （如果太大超过2G的化应该放不上，也许我会放在huggingface上）
+二、如果你想通过源码
+1. 克隆仓库 （如果没有装git的化直接下载zip文件就行，但是那些超过25m的模型是不包括在zip文件夹里的，你需要一个个去找很麻烦////不如去把git软件安装下来）
 ```bash
-pip install -r requirements-cpu.txt
+git clone https://github.com/AntheaLaffy/video-subtitile-remover-cpu.git
 ```
-之后启动gui.py
+```bash
+cd video-subtitile-remover-cpu
+```
+2. 确认python版本
+首先确定你的python版本是不是3.10.x
+```bash
+python -V
+```
+2.1 如果不是3.10开头
+需要提前创建&激活虚拟环境:
+（1）方法一：若安装了conda
+```bash
+conda create --prefix ./env python=3.10
+```
+接下来所有命令都要以env/python.exe开头,用env/python.exe替换python
+
+例如：原写法
+```bash
+python gui.py
+```
+conda写法
+```bash
+env/python.exe gui.py
+```
+(2) 方法二：使用virtualenv 工具
+```bash
+pip install virtualenv
+```
+```bash
+virtualenv -p ./python3.10 env
+```
+激活
+```bash
+env\Scripts\activate
+```
+(3) 方法三：安装一个python3.10
+```bash
+python3.10 -m venv env
+```
+激活
+```bash
+env\Scripts\activate
+```
+
+3. 安装依赖(注意conda环境要把python改为env/python.exe)
+我这里给了smart_install.py，可以自动根据你使用的是gpu还是cpu安装
+```bash
+python smart_install.py
+```
+4.程序启动
 ```bash
 python gui.py
 ```
