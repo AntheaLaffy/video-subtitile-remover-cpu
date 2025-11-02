@@ -29,6 +29,7 @@ VSR主要实现了以下功能：
 <img src="https://github.com/AntheaLaffy/resourses/raw/main/my-group.jpg" width="300px">
 
 **VSR-WebUI使用说明————如果你想以cpu运行的化**
+
 一、直接到我的release里把exe打包文件下载下来 （如果太大超过2G的化应该放不上，也许我会放在huggingface上）
 
 二、如果你想通过源码
