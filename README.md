@@ -42,12 +42,15 @@ git clone https://github.com/AntheaLaffy/video-subtitile-remover-cpu.git
 cd video-subtitile-remover-cpu
 ```
 2. 确认python版本
+
 首先确定你的python版本是不是3.10.x
 ```bash
 python -V
 ```
 2.1 如果不是3.10开头
+
 需要提前创建&激活虚拟环境:
+
 （1）方法一：若安装了conda
 ```bash
 conda create --prefix ./env python=3.10
@@ -83,6 +86,7 @@ env\Scripts\activate
 ```
 
 3. 安装依赖(注意conda环境要把python改为env/python.exe)
+
 我这里给了smart_install.py，可以自动根据你使用的是gpu还是cpu安装
 ```bash
 python smart_install.py
