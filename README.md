@@ -65,18 +65,7 @@ conda写法
 ```bash
 env/python.exe gui.py
 ```
-(2) 方法二：使用virtualenv 工具
-```bash
-pip install virtualenv
-```
-```bash
-virtualenv -p ./python3.10 env
-```
-激活
-```bash
-env\Scripts\activate
-```
-(3) 方法三：安装一个python3.10
+(2) 方法二：安装一个python3.10
 ```bash
 python3.10 -m venv env
 ```
