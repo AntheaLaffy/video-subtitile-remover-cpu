@@ -30,7 +30,9 @@ VSR主要实现了以下功能：
 
 **VSR-WebUI使用说明————如果你想以cpu运行的化**
 一、直接到我的release里把exe打包文件下载下来 （如果太大超过2G的化应该放不上，也许我会放在huggingface上）
+
 二、如果你想通过源码
+
 1. 克隆仓库 （如果没有装git的化直接下载zip文件就行，但是那些超过25m的模型是不包括在zip文件夹里的，你需要一个个去找很麻烦////不如去把git软件安装下来）
 ```bash
 git clone https://github.com/AntheaLaffy/video-subtitile-remover-cpu.git
