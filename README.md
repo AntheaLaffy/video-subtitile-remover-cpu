@@ -65,7 +65,11 @@ conda写法
 ```bash
 env/python.exe gui.py
 ```
-(2) 方法二：安装一个python3.10
+(2) 方法二：安装一个python3.10 
+
+<mark>注：</mark>安装完python3.10可以不用安装和激活虚拟环境，但如果你想弄一下也是可以的
+
+方法如下(可跳过)：
 ```bash
 python3.10 -m venv env
 ```
