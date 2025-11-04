@@ -22,11 +22,11 @@ VSR mainly implements the following features:
 - **A more obvious issue: many MP4 videos use the AVC1 codec, but this project supports MP4V. So during processing, the video will be converted to MP4V.**
 - **As a result, the frame rate of the processed video may differ slightly from the original, though the difference is usually negligible.**
 
-&lt;p style="text-align:center;"&gt;&lt;img src="https://github.com/AntheaLaffy/vsr-webui/raw/main/test/vsr.png" alt="webui"/&gt;&lt;/p&gt;
+<img src="https://github.com/AntheaLaffy/vsr-webui/raw/main/test/vsr.png" alt="webui">
 
 **PS: My little corner — feel free to drop by: 拉菲的八二年酒窖**
 
-&lt;img src="https://github.com/AntheaLaffy/resourses/raw/main/my-group.jpg" width="300px"&gt;
+<img src="https://github.com/AntheaLaffy/resourses/raw/main/my-group.jpg" width="300px">
 
 ## VSR-WebUI Usage Instructions — If You Want to Run It on CPU
 
